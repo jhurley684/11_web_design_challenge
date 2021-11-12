@@ -49,7 +49,7 @@
   </nav>
 
   <div class="container">
-    <h1>Latitude and the Weather</h1>
+    <h1>Lattidude vs. Wind Speed</h1>
     <hr class="my-4">
   </div>
 
@@ -57,30 +57,37 @@
     <div class="row">
       <div class="col-md-8" style="background-color:rgba(139, 156, 233, 0.432)" ;>
         <div class="w3-container">
-          <p><h2>Does the Weather Change The Closer You Get To The Equator?</h2></p>
-          <p><br><img src="Resources/assets/images/Fig1.png" alt="Weather_plot1" class="img-fluid"
-              style="width:275px;height:275px; margin-right:15px; float: left">The purpose of this project was to
-            analyze how
-            weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the
-            OpenWeatherMap API to assemble a dataset on over 500 cities.
-            <br><br>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
-            latitude.
-            Factors we looked at included: temperatiure, cloudiness, wind speed, and humidity. This site provides the
-            source
-            data and visualizations created as part of the analysis, as well as explanations and descriptions of any
-            trends and
-            correlations witnessed.
-          </p>
+        <p>
+        <h2>Does the Latitude Affect The Wind Speed?</h2>
+        </p>
+        <p><br><img src="Resources/assets/images/Fig4.png" alt="Latitude vs. Cloudiness" class="img-fluid"
+                style="width:450px;height:450px; margin-right:15px; float: left">          To some, wind speed is their primary issue. Kite flyers and sailors like some wind but not a lot. In some hot places a
+                light breeze is refreshing. But big gusts of wind can be an endless nusance to picnickers, sportsment, and others.
+                <br><br>
+                Whatever your preference, can you get the right amount of wind-speed just by heading to the right latitude? The chart
+                to the
+                left says it's doubtful - here's why:<br><br> As you can see data points cluster toward the bottom of the plot. That
+                is
+                because wind speed are generally light. And, of course, wind speed can't go below zero. Low wind speeds are evenly
+                distrubuted
+                along all lattitudes - everywhere has at least some wind.<br><br> But what about high winds? According to our wind
+                speed plot,
+                high winds tend a bit more often at very high latitudes but unless your a penguin or a polar bear you aren't anymore
+                likely
+                to run into high winds regardless of your latitude. So for all practical reasons, latitude doesn't make any difference
+                to your
+                traveling needs.
+        </p>
         </div>
       </div>
       <div class="col-md-4" style="background-color:rgb(139, 156, 233, 0.432)" ;>
-
+        <br><br><br><br><br>
         <div class="row">
           <div class="col-md-6" style="background-color:rgb(139, 156, 233, 0.432)" ;>
             <h5>visualizations</h5>
             <div class="thumbnail">
               <article>
-                <a target="_blank" href="vs_temperature.html">
+                <a target="_self" href="vs_temperature.html">
                   <img src="Resources/assets/images/Fig1.png" alt="Max Temperature Map" class="img-thumbnail">
                 </a>
                 <p><em>Latitude vs. Max Temperature</em></p>
@@ -91,7 +98,7 @@
             <h3><br> </h3>
             <div class="thumbnail">
               <article>
-                <a target="_blank" href="vs_humidity.html">
+                <a target="_self" href="vs_humidity.html">
                   <img src="Resources/assets/images/Fig2.png" alt="Humidity Map" class="img-thumbnail">
                 </a>
                 <p><em>Latitude vs. Humidity</em></p>
@@ -105,7 +112,7 @@
             <div class="thumbnail">
               <hr>
               <article>
-                <a target="_blank" href="vs_cloudiness.html">
+                <a target="_self" href="vs_cloudiness.html">
                   <img src="Resources/assets/images/Fig3.png" alt="Cloudy Map" class="img-thumbnail">
                 </a>
                 <p><em>Latitude vs. Cloudiness</em></p>
@@ -116,7 +123,7 @@
             <div class="thumbnail">
               <hr>
               <article>
-                <a target="_blank" href="vs_wind_speed.html">
+                <a target="_self" href="vs_wind_speed.html">
                   <img src="Resources/assets/images/Fig4.png" alt="Wind Speed Map" class="img-thumbnail">
                 </a>
                 <p><em>Latitude vs. Wind Speed</em></p>

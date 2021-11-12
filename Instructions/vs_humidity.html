@@ -49,7 +49,7 @@
   </nav>
 
   <div class="container">
-    <h1>Latitude and the Weather</h1>
+    <h1>Latitude vs. Humidity</h1>
     <hr class="my-4">
   </div>
 
@@ -57,30 +57,28 @@
     <div class="row">
       <div class="col-md-8" style="background-color:rgba(139, 156, 233, 0.432)" ;>
         <div class="w3-container">
-          <p><h2>Does the Weather Change The Closer You Get To The Equator?</h2></p>
-          <p><br><img src="Resources/assets/images/Fig1.png" alt="Weather_plot1" class="img-fluid"
-              style="width:275px;height:275px; margin-right:15px; float: left">The purpose of this project was to
-            analyze how
-            weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the
-            OpenWeatherMap API to assemble a dataset on over 500 cities.
-            <br><br>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
-            latitude.
-            Factors we looked at included: temperatiure, cloudiness, wind speed, and humidity. This site provides the
-            source
-            data and visualizations created as part of the analysis, as well as explanations and descriptions of any
-            trends and
-            correlations witnessed.
-          </p>
+        <p>
+        <h2>Does The Latitude Affect Humidity Levels?</h2>
+        </p>
+        <p><br><img src="Resources/assets/images/Fig2.png" alt="Latitude vs. Cloudiness" class="img-fluid"
+            style="width:450px;height:450px; margin-right:15px; float: left">As a native to the midwestern United States, I can
+          attest that high heat and high humidity is an uncomfortable combination. But why does this area of the world have such
+          high levels of humidity in the summer? Does it depend on what latitude your in?<br><br>As you can see data points
+          cluster at the top of the plot. That is 100% humidity which is rain or snow for the most part. Rain is evenly
+          distributed around the equator with just as many data point at both higher and lower latitudes. The same can be said
+          for every other level of humidity. So your latitude cannot help you predict levels of humidity.
+        
+        </p>
         </div>
       </div>
       <div class="col-md-4" style="background-color:rgb(139, 156, 233, 0.432)" ;>
-
+        <br><br><br><br><br>
         <div class="row">
           <div class="col-md-6" style="background-color:rgb(139, 156, 233, 0.432)" ;>
             <h5>visualizations</h5>
             <div class="thumbnail">
               <article>
-                <a target="_blank" href="vs_temperature.html">
+                <a target="_self" href="vs_temperature.html">
                   <img src="Resources/assets/images/Fig1.png" alt="Max Temperature Map" class="img-thumbnail">
                 </a>
                 <p><em>Latitude vs. Max Temperature</em></p>
@@ -91,7 +89,7 @@
             <h3><br> </h3>
             <div class="thumbnail">
               <article>
-                <a target="_blank" href="vs_humidity.html">
+                <a target="_self" href="vs_humidity.html">
                   <img src="Resources/assets/images/Fig2.png" alt="Humidity Map" class="img-thumbnail">
                 </a>
                 <p><em>Latitude vs. Humidity</em></p>
@@ -105,7 +103,7 @@
             <div class="thumbnail">
               <hr>
               <article>
-                <a target="_blank" href="vs_cloudiness.html">
+                <a target="_self" href="vs_cloudiness.html">
                   <img src="Resources/assets/images/Fig3.png" alt="Cloudy Map" class="img-thumbnail">
                 </a>
                 <p><em>Latitude vs. Cloudiness</em></p>
@@ -116,7 +114,7 @@
             <div class="thumbnail">
               <hr>
               <article>
-                <a target="_blank" href="vs_wind_speed.html">
+                <a target="_self" href="vs_wind_speed.html">
                   <img src="Resources/assets/images/Fig4.png" alt="Wind Speed Map" class="img-thumbnail">
                 </a>
                 <p><em>Latitude vs. Wind Speed</em></p>
